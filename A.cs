@@ -2,7 +2,7 @@ using System;
 
 namespace cbo_dotnet
 {
-    class A
+    class A: B
     {
         public void mA1() {
             new B().mB1();
@@ -18,9 +18,6 @@ namespace cbo_dotnet
         }
         public void mA4() {
             new C().mC4();
-        }
-        public void mA5() {
-            new C().mC5();
         }
     }
 }

@@ -8,7 +8,8 @@ namespace cbo_dotnet
             new C().mC1();
         }
         public void mB2() {
-            new D().mD1();
+            D d = new D();
+            d.mD1();
         }
         public void mB3() {}
         public void mA4() {}
